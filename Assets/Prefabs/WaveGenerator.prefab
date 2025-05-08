@@ -1,0 +1,464 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3794396972962921228
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 881014436433477953}
+  - component: {fileID: 4250185204925587812}
+  - component: {fileID: 3752310705770323192}
+  m_Layer: 0
+  m_Name: WaveGenerator
+  m_TagString: WaveManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &881014436433477953
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794396972962921228}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.6265178, y: 3.7817602, z: 0.07559618}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4250185204925587812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794396972962921228}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 221be931ee40ff941b38e6509de0f7f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gsm: {fileID: 0}
+  waveNumber: 0
+  waveIndex: 0
+  canSpawn: 0
+  waves:
+  - waveName: Wave 1
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - waveName: Wave 2
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - waveName: Wave 3
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - waveName: Wave 4
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - waveName: Wave 5
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - waveName: Wave 6
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - waveName: Wave 7
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - waveName: Wave 8
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - waveName: Wave 9
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - waveName: Wave 10
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave 11
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave 12
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave 13
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - waveName: Wave 14
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+  - waveName: Wave 15
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+  - waveName: Wave 16
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - waveName: Wave 17
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave 18
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave 19
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+    - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - waveName: Wave 20
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies:
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+    - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  - waveName: Wave End
+    spawnInterval: 2
+    enemiesNeededToSpawn: 0
+    enemiesInScene: 0
+    allEnemiesSpawned: 0
+    enemies: []
+  spawnLocations:
+  - {fileID: 0}
+  - {fileID: 0}
+  countdown: 30
+  maximumEnemyCount: 5
+--- !u!114 &3752310705770323192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3794396972962921228}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91b606caacf15884584f3fd3d4361579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 0}
+  spawners:
+  - {fileID: 0}
+  - {fileID: 0}
+  tier1:
+  - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  tier2:
+  - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  tier3:
+  - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  tier4:
+  - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+  tier5:
+  - {fileID: 6372387939537801291, guid: a73ebe33884cf174085155ac9b848cf5, type: 3}
+  - {fileID: 8119465488826275463, guid: 6e5191d95f2ee5943acdef3e22d65bc7, type: 3}
+  - {fileID: 2300709203696497044, guid: 4452c4e6225fbd045850c7771e30793f, type: 3}
+  - {fileID: 6947709085592719720, guid: 4753c3faf21d5f84f8def85a37dc53c5, type: 3}
+  - {fileID: 2962433458714320915, guid: f041c656dcb34c847b60b316a6d5f6e4, type: 3}
+  enemyHpModifier: 0
+  countdownUntilNextWave: 30
+  currentWave: 0
+  enemyTier: 1
+  unlockTier: 0
+  readyToSpawn: 1
+  spawningHasCompleted: 0

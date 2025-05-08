@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905304bd2d84681438781bc45eea5019, type: 3}
+  m_Name: Lieutenant
+  m_EditorClassIdentifier: 
+  characterName: Lieutenant
+  portraitNobackground: {fileID: 21300000, guid: 955aad9592b465f459f2475138aab326, type: 3}
+  portraitWithBackground: {fileID: 21300000, guid: 2e993d95410d30c4bb009f9639248f46, type: 3}
+  specialAbilityPortrait: {fileID: 21300000, guid: 45c4136dbeb45b44e8ffb4daf872f5d8, type: 3}
+  hp: 3
+  speed: 125
+  controller: {fileID: 9100000, guid: 0fc07afa5401a584b96098b11b650312, type: 2}

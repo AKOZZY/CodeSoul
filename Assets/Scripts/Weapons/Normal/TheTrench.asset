@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712af92ce5c973b47bbe90599cde4368, type: 3}
+  m_Name: TheTrench
+  m_EditorClassIdentifier: 
+  id: 2
+  price: 1000
+  title: The Trench
+  description: 
+  sprite: {fileID: 21300000, guid: 05e0c4af92fc03648ba6310100905aba, type: 3}
+  bullet: {fileID: 21300000, guid: b3763590a631d4748993e67eb6cdb47d, type: 3}
+  projectile: {fileID: 7968709957282689664, guid: 89e12a6175291044895c80797eed3e6e, type: 3}
+  controller: {fileID: 9100000, guid: 38b02176eb0ad7644a309bf524a8f94b, type: 2}
+  type: 1
+  sound: {fileID: 8300000, guid: 9354f44441f6414408d95a4b9ed2f84f, type: 3}
+  damage: 2
+  ammo: 3
+  magazine: 5
+  shellsPerShot: 3
+  reload: 2
+  firerate: 2

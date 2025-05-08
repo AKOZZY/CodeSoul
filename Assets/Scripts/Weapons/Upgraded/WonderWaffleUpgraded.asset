@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712af92ce5c973b47bbe90599cde4368, type: 3}
+  m_Name: WonderWaffleUpgraded
+  m_EditorClassIdentifier: 
+  id: 6
+  price: 10000
+  title: ULTIMATE WAFFLE MAKER
+  upgradedVariantOf: Wonder Waffle
+  description: 
+  sprite: {fileID: 21300000, guid: 7d274abd6f8e39440a553d9065af9a7f, type: 3}
+  bullet: {fileID: 0}
+  projectile: {fileID: 5069527832733538817, guid: e1dda906683dabd4aaefaaaaa578fbbf, type: 3}
+  controller: {fileID: 9100000, guid: 8cfb710c56b72fa49910a9b0661417b8, type: 2}
+  type: 3
+  sound: {fileID: 8300000, guid: c197923830e17d643b7b6c5dd4081d4d, type: 3}
+  isUpgraded: 1
+  damage: 35
+  ammo: 12
+  magazine: 12
+  shellsPerShot: 0
+  reload: 4
+  firerate: 0.2

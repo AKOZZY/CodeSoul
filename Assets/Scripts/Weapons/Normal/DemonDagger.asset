@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712af92ce5c973b47bbe90599cde4368, type: 3}
+  m_Name: DemonDagger
+  m_EditorClassIdentifier: 
+  id: 3
+  price: 6666
+  title: Demon Dagger
+  description: 
+  sprite: {fileID: 21300000, guid: b067e0b72c5c2bd46b023a57d3ace568, type: 3}
+  bullet: {fileID: 0}
+  projectile: {fileID: 3206363375796509537, guid: 379924ecba05e87409c50cdb2051dd5a, type: 3}
+  controller: {fileID: 9100000, guid: 5f46fecff7a136942b10e57affda5c70, type: 2}
+  type: 2
+  sound: {fileID: 8300000, guid: 424c1717b47c04649a4fd084f8a7013e, type: 3}
+  isUpgraded: 0
+  damage: 6
+  ammo: 666
+  magazine: 666
+  shellsPerShot: 0
+  reload: 0
+  firerate: 0.3
